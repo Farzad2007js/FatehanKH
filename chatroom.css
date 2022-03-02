@@ -1,0 +1,156 @@
+body {
+  background-image: url(img/back_ch.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 1400px;
+  height: 710px;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+form {
+  display: grid;
+  grid-template-rows: 0.3fr 2fr 2fr;
+}
+
+.fname {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  width: 100px;
+  height: 50px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  background-color: lime;
+  box-shadow: 3px 2px 5px lime;
+}
+
+#name {
+  width: 150px;
+  height: 30px;
+  border: solid;
+  box-shadow: 5px 5px 7px red;
+  direction: rtl;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+  border: solid;
+  box-shadow: 5px 5px 7px red;
+  direction: rtl;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mess {
+  width: 80%;
+  height: 96%;
+  background-image: url(img/back_chat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  border: solid;
+  padding: 10px;
+  direction: rtl;
+}
+
+.txt {
+  display: block;
+  margin-top: 25px;
+}
+
+span {
+  background-color: blue;
+  margin: 5px;
+  display: inline;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  border: solid black;
+  color: #fff;
+  padding: 5px;
+}
+
+p {
+  display: inline;
+  background-color: red;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  border: solid black;
+  color: #fff;
+  padding: 5px;
+}
+
+@media screen and (max-width: 850px) {
+  .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 4fr;
+  }
+  .send {
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  p {
+    font-size: small;
+  }
+  span {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  p {
+    font-size: 10px;
+  }
+  span {
+    font-size: 10px;
+  }
+  textarea {
+    width: 190px;
+  }
+  #name {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  p {
+    font-size: 7px;
+  }
+  span {
+    font-size: 7px;
+  }
+  textarea {
+    width: 160px;
+    height: 150px;
+  }
+}

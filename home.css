@@ -1,0 +1,152 @@
+body {
+  background-image: url(img/back_h.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* display: flex;
+  justify-content: start; */
+  padding: 10px;
+}
+
+.mother {
+  width: 97%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: 0.7fr 3.3fr;
+}
+
+.mo_item {
+  display: flex;
+  justify-content: end;
+}
+
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lime;
+  border-radius: 10px;
+  border: solid;
+}
+
+.re_lo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 10px;
+  border: solid;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 10px;
+  border: solid;
+}
+
+.item2 {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.item {
+  width: 250px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 10px;
+  border: solid;
+}
+
+.game1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lime;
+  border-radius: 10px;
+  border: solid;
+}
+
+.game2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 10px;
+  border: solid;
+}
+
+a {
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+
+#he {
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 725px) {
+  .item,
+  .item2 {
+    width: 200px;
+    height: 150px;
+  }
+
+  #he {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .item,
+  .item2 {
+    width: 150px;
+    height: 100px;
+  }
+  a {
+    font-size: x-large;
+  }
+  #he {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .item,
+  .item2 {
+    width: 80px;
+    height: 50px;
+  }
+  a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #he {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  #he {
+    font-size: 15px;
+  }
+}

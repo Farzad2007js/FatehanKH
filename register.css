@@ -1,0 +1,160 @@
+body {
+  background: url(img/back_r.jpg) no-repeat;
+  background-size: cover;
+  margin: 0rem;
+  width: 100%;
+}
+
+html {
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contianer {
+  /* width: 1200px; */
+  /* margin: 0 auto; */
+  display: grid;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1.3rem;
+  color: red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  /* margin-left: 21rem; */
+  /* font-family: \; */
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  /* text-align: center; */
+  /* margin-top: 2rem; */
+  display: flex;
+  justify-content: center;
+}
+.in1,
+.in2,
+.in3,
+.in4,
+.in5,
+.in6 {
+  /* width: 43%; */
+  padding: 0.6rem 0.2rem 0.6rem 8.4rem;
+  /* transform: translateY(10px); */
+  /* transform: translate(-324px,33px); */
+  border-radius: 5px;
+  /* display: flex; */
+}
+.vorod {
+  /* display: flex; */
+
+  /* justify-content: center; */
+
+  /* flex-direction: column; */
+
+  display: block;
+
+  text-align: center;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8,
+.f9 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.btn {
+  /* transform: translate(-459px, 154px); */
+  /* width: 12%; */
+  padding: 0.5rem;
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: solid #4caf50 0.2rem;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  margin-bottom: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.tekrar {
+  /* transform: translate(-218px, 77px); */
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.btv {
+  /* transform: translate(183px, 33px); */
+
+  font-weight: 700;
+
+  background-color: #2196f3;
+
+  border-radius: 50px;
+
+  border: solid #2196f3 0.1rem;
+
+  font-size: small;
+
+  /* display: flex; */
+
+  justify-content: space-between;
+
+  /* display: flex; */
+
+  /* align-content: flex-end; */
+
+  /* flex-direction: column; */
+
+  margin-top: 1.2rem;
+}
+.a1 {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.ghavfa {
+  display: flex;
+
+  justify-content: center;
+
+  /* margin-left: 12rem; */
+
+  /* margin-top: 2rem; */
+}
+
+.inputfa {
+  text-align: center;
+}
+.checkbox {
+  display: inline;
+}
+@media screen and (max-width: 490px) {
+  .title,
+  .vorod {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 310px) {
+  .big1 {
+    padding: 0.6rem;
+  }
+}

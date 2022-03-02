@@ -1,0 +1,85 @@
+body {
+  background-image: url(img/back_ab.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.mother {
+  width: 100%;
+  height: 710px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.aryan,
+.farzad {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.img_f,
+.img_a {
+  display: flex;
+  justify-content: center;
+}
+
+/* .aks_f {
+  width: 100%;
+  height: 100%;
+  background-image: url(farzad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.aks_a {
+  width: 20rem;
+  height: 25rem;
+  background-image: url(aryan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+img {
+  width: 60%;
+  height: 500px;
+}
+
+.mosh {
+  display: grid;
+}
+
+.mo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: aliceblue;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .mother {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  p {
+    font-size: medium;
+  }
+}

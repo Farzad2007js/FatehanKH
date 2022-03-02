@@ -1,0 +1,122 @@
+html {
+  font-size: 100%;
+  font-family: "Vazir";
+}
+body {
+  background: url(img/back_l.jpg) no-repeat;
+  background-size: cover;
+  /* display: grid; */
+  /* justify-content: center; */
+}
+
+.contianer {
+  /* width: 1200px; */
+  /* margin: 0 auto; */
+  /* margin: 2rem 18rem; */
+  display: grid;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 1.5rem;
+  /* padding: initial; */
+  /* display: grid; */
+  /* width: 195%; */
+  /* display: grid; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* width: 35%; */
+  text-align: center;
+}
+
+.form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1.3rem;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* padding-left: 25rem; */
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0rem;
+  /* text-align: center; */
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.in1,
+.in2 {
+  width: 94%;
+  padding: 0.6rem 0.4rem;
+  /* transform: translateY(10px); */
+  /* transform: translate(-374px,33px); */
+  border-radius: 5px;
+  border: rgb(90, 121, 131) solid 0.12rem;
+  /* margin-top: .3rem; */
+  /* display: flex; */
+  /* display: flex; */
+  margin-bottom: 2rem;
+}
+.in1:focus,
+.in2:focus {
+  outline: none;
+  background-color: rgb(220, 247, 255);
+  border: rgb(255, 67, 67) solid 0.12rem;
+}
+.btn {
+  /* transform: translate(-21px, 244px); */
+  /* width: 21%; */
+  padding: 0.5rem 4rem;
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: solid #4caf50 0.2rem;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  margin-bottom: 1rem;
+  /* display: block; */
+  /* display: flex; */
+  /* justify-content: center; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+.f1,
+.f2 {
+  /* transform: translate(-259px, 62px); */
+  color: #ffffff;
+  /* width: 50%; */
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.big {
+  margin-top: 4rem;
+  text-align: center;
+}
+.faramosh {
+  color: rgb(251 251 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.bigfaramosh {
+  margin-top: 2rem;
+  background-color: rgb(255 101 101);
+  /* display: flex; */
+  /* width: 23%; */
+  margin: 2rem 2rem;
+  padding: 0.3rem;
+  border: solid 0.1rem #ff7d7d;
+  border-radius: 36px;
+  /* display: flex; */
+}
+@media screen and (max-width: 310px) {
+  .in1,
+  .in2 {
+    padding: 0.6rem;
+  }
+}
